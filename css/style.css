@@ -356,6 +356,7 @@ body{
 .trainer-intro{
     background-color:#181818;
     padding: 20px;
+    margin-top: 20px;
 }
 .trainer-intro h4{
     color: #ffffff;
@@ -366,4 +367,105 @@ body{
 .look-at-section{
     background-image: url("..images/lookatbg.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #313131;
+}
+.review-holder{
+    display: flex;
+    align-items: center;
+}
+.reniew-content p{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 100;
+}
+.reniew-content h6{
+    color: #ffffff;
+    font-size: 22px;
+}
+.reniew-content .client-name p{
+    color: #FE2B00;
+    font-size: 16px;
+    font-weight: 700;
+}
+.review-image{
+    flex-shrink: 0;
+    width: 500px;
+    margin-right: 60px;
+}
+.reniew-content .stars{
+    margin-bottom: 20px;
+    width: 140px;
+}
+.client-name{
+    margin-top: 40px;
+}
+.people-say-section .review-holder{
+    margin-top: 60px;
+}
+.look-at-section h2{
+    margin-bottom: 60px;
+}
+.people-say-section{
+    background-image: url("../images/fitbg.jpg");
+}
+.red-footer-section{
+    padding: 60px 0px 20px;
+    background-color: #FE2B00;
+}
+.news-letter-title h4{
+    color: #ffffff;
+    font-size: 32px;
+}
+.news-letter-title p{
+    color: #ffffff;
+    font-size: 16px;
+}
+.newsletter-form{
+    display: flex;
+}
+.newsletter-form .btn.btn-primary{
+    background-color: #ffffff;
+    color: #FE2B00;
+    border-radius: 0px;
+    border: 0px;
+    height: 50px;
+    padding: 0px 40px;
+}
+.newsletter-form .form-control{
+    border-radius: 0px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    margin-right: 20px;
+    height: 50px;
+    color: #ffffff;
+}
+.footer-list ul{
+    margin: 0px;
+    padding: 0px;
+}
+.footer-list ul li{
+    list-style: none;
+}
+.footer-list ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.footer-list h5{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.copyright-section{
+    text-align: center;
+    border-top: 1px solid #000000;
+    margin-top: 100px;
+}
+.copyright-section p{
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-top: 30px;
 }
