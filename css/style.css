@@ -1,0 +1,369 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Chivo", sans-serif;
+    background: #181818;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    color: #ffffff;
+}
+.navbar-nav.me-auto{
+    margin-left: auto!important;
+    margin-right: 0px !important;
+}
+.space-left-right{
+    padding: 0px 50px;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    font-size: 18px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 15px 30px;
+}
+.spaceleft-right{
+    padding: 0px 60px;
+}
+.orange-button{
+    position: relative;
+}
+.orange-button:before{
+    content: "";
+    background-color: #FE2B00;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: skew(-10deg,0deg);
+}
+.orange-button{
+    color: #ffffff !important;
+    font-weight: 300 !important;
+}
+.orange-button i{
+    position: relative;
+    z-index: 5;
+    font-style: normal;
+}
+.header-wrapper{
+    background: #181818;
+}
+.page-title-section{
+    background-color: #181818;
+}
+.banner-one{
+    background-image: url("../images/banner1.png");
+    background-position: top center;
+    padding: 286px 0px;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-scetion-wrapper{
+    background-color: #181818;
+}
+.banner-content h5{
+    font-size: 44px;
+    color: #ffffff;
+    line-height: 50px;
+}
+.banner-content h1{
+    font-size: 80px;
+    color: #ffffff;
+    line-height: 90px;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
+}
+.banner-content h4{
+    font-size: 48px;
+    line-height: 50px;
+    color: #ffffff;
+    margin-top: 20px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px #000000;
+}
+.banner-content h4 span{
+    color: #FE2B00;
+}
+.orange-button.btnstyle{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px 40px;
+    display: inline-block;
+}
+.margin-top-40{
+    margin-top: 40px;
+}
+.banner-scetion-wrapper{
+    position: relative;
+}
+.banner-scetion-wrapper .owl-prev{
+    background-image: url("../images/left.png") !important;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.banner-scetion-wrapper .owl-next{
+    background-image: url("../images/right.png") !important;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.banner-scetion-wrapper .owl-prev span,.banner-scetion-wrapper .owl-next span{
+    font-size: 0px;
+}
+.banner-tag p{
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0px;
+}
+.banner-scetion-wrapper .item{
+    position: relative;
+}
+.banner-tag{
+    position: absolute;
+    top: 67px;
+    color: #ffffff;
+    background-image: url("../images/tagbg.png");
+    width: 360px;
+    padding: 20px 40px;
+}
+.about-section-wrapper{
+    position: relative;
+}
+.space-top-bottom{
+    padding: 60px 0px;
+}
+.about-section-wrapper:before{
+    content:"";
+    background-image: url(../images/doted.png);
+    width: 286px;
+    height: 458px;
+    background-position: center top;
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: -1;
+    top: 0;
+}
+.about-content-wrapper{
+    background-color: #313131;
+    padding: 40px;
+    color: #ffffff;
+}
+.about-content h3{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.about-content h3 i{
+    margin-right: 8px;
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 100;
+    color: #ffffff;
+}
+.about-content-wrapper .nav.nav-tabs .nav-link.active{
+    background-color: #FE2B00;
+    border-radius: 0px;
+    border: 0px;
+    color: #ffffff;
+}
+.about-content-wrapper .nav-tabs{
+    border: 0px;
+    margin-bottom: 20px;
+}
+.btn:focus,.nav-link:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.nav-item{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    
+}
+.nav-tabs .nav-link, .nav-tabs .nav-link{
+    border: 1px solid #FE2B00;
+    border-radius: 0px;
+    height: 40px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+.section-title h2{
+    font-size: 96px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    font-style: italic;
+}
+.section-title h2 span{
+    color: #FE2B00;
+}
+.section-title p{
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 60px;
+}
+.body-building{
+    background-image: url("../images/weightlifting.png");
+}
+.service-icon.strength-training{
+    background-image: url("../images/muscle.png");
+}
+.yoga{
+    background-image: url("../images/yoga.png");
+}
+.weight{
+    background-image: url("../images/weight.png");
+}
+.service-icon{
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.service-box-inner h2{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.service-box-inner p{
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.service-box{
+    background-color: #000000;
+    padding: 0px;
+    border-right: 1px solid #787878;
+    border-bottom: 1px solid #787878;
+}
+.service-box-inner{
+    background-color: #313131;
+    border: 5px solid #1e1a19;
+    padding: 40px;
+}
+.Our-service-section .col-lg-6{
+    margin: 0px;
+    padding: 0px;
+}
+.service-box-inner a{
+    color: #ffffff;
+    padding: 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.no-right-border{
+    border-right: 0px !important;
+}
+.service-box-inner:hover{
+    background-color: #FE2B00;
+    transition: all 0.3s ease-in-out 0s;
+}
+.margin-top-60{
+    margin-top: 60px;
+}
+.best-training-section .about-content h3{
+    font-size: 20px;
+    font-weight: 100;
+}
+.best-training-section .about-content h2{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 800;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+.progress-text span{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+}
+.progress-text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.progress, .progress-stacked{
+    height: 6px;
+    border-radius: 0px;
+}
+.progress-bar{
+    background-color: #FE2B00;
+}
+.progress-line{
+    margin-bottom: 30px;
+}
+.best-training-section .about-content{
+    margin-bottom: 60px;
+}
+.number-style h2{
+    font-size: 96px;
+    font-weight: 900;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    line-height: 1em;
+}
+.number-style p{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.number-style.white{
+    color: #ffffff;
+}
+.numbers-box{
+    margin-bottom: 50px;
+}
+.numbers-section{
+    border-left:1px solid #787878;
+    padding-left: 100px;
+    margin-left: 100px;
+}
+.best-training-section{
+    background-image: url(../images/train-bg.jpg);
+}
+.section-title.text-left h2{
+    text-align: left;
+}
+.trainer-intro{
+    background-color:#181818;
+    padding: 20px;
+}
+.trainer-intro h4{
+    color: #ffffff;
+}
+.trainer-intro p{
+    color: #ffffff;
+}
+.look-at-section{
+    background-image: url("..images/lookatbg.jpg");
+    background-size: cover;
+}
