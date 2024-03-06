@@ -365,7 +365,7 @@ body{
     color: #ffffff;
 }
 .look-at-section{
-    background-image: url("..images/lookatbg.jpg");
+    background-image: url(..images/lookatbg.jpg) !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #313131;
@@ -468,4 +468,192 @@ body{
     font-weight: 300;
     margin-bottom: 0px;
     margin-top: 30px;
+}
+.look-at-section .owl-nav,.people-say-section .owl-nav{
+    position: absolute;
+    top: -100px;
+    right: 0;
+}
+.people-say-section .owl-nav{
+    top: auto;
+    bottom: 0px !important;
+}
+.look-at-section .owl-nav .owl-prev,.look-at-section .owl-nav .owl-next,
+.people-say-section .owl-nav .owl-prev,.people-say-section .owl-nav .owl-next{
+    width: 120px;
+    height: 66px;
+    text-align: center;
+    background-color: #000000 !important;
+    color: #FE2B00 !important;
+    margin-left: 20px;
+    transform: skew(-10deg,0deg);
+}
+.look-at-section .owl-nav .owl-prev:hover,.look-at-section .owl-nav .owl-next:hover,
+.people-say-section .owl-nav .owl-prev:hover,.people-say-section .owl-nav .owl-next:hover{
+    background-color:#FE2B00 !important;
+    color: #ffffff !important;
+}
+.look-at-section .owl-nav .owl-prev span,.look-at-section .owl-nav .owl-next span,
+.people-say-section .owl-nav .owl-prev span,.people-say-section .owl-nav .owl-next span{
+    font-size: 40px;
+}
+@media only screen and (max-width:1199px){
+
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding: 15px 10px;
+    }
+}
+
+@media only screen and (max-width:991px){
+
+    .navbar-expand-md .navbar-nav .nav-link{
+        font-size: 16px;
+        text-align: center;
+        line-height: 1em;
+    }
+    .spaceleft-right {
+        padding: 0px 10px;
+    }
+    .about-content-wrapper{
+        margin-top: 40px;
+    }
+    br{
+        display: none;
+    }
+    .section-title h2{
+        font-size: 70px;
+    }
+    .section-title p{
+        font-size: 20px;
+    }
+    .service-box{
+        border: 1px solid #787878 !important;
+        margin-bottom: 20px;
+    }
+    .numbers-section{
+        padding-left: 20px;
+        margin-left: 20px;
+    }
+    .best-training-section .about-content h3{
+        font-size: 18px;
+    }
+    .best-training-section .about-content h2{
+        font-size: 40px;
+    }
+    .number-style h2{
+        font-size: 80px;
+    }
+    .number-style p{
+        font-size: 18px;
+    }
+    .review-image{
+        width: 300px;
+    }
+    .people-say-section .owl-nav{
+        bottom: -40px !important;
+    }
+    .Our-service-section.space-top-bottom{
+        padding-top: 0px;
+    }
+    .people-say-section .space-top-bottom{
+        padding-top: 0px;
+    }
+}
+
+@media only screen and (max-width:767px){
+
+    .navbar-toggler{
+        background-color: #FE2B00;
+    }
+    .banner-content h1{
+        font-size: 70px;
+    }
+    .banner-content h4{
+        font-size: 38px;
+    }
+    .orange-button.btnstyle{
+        font-size: 18px;
+    }
+    .orange-button.btnstyle{
+        padding: 15px 30px;
+    }
+    .banner-one{
+        padding: 250px 0px 150px;
+    }
+    .numbers-section {
+        padding-left: 0px;
+        margin-left: 0px;
+        border: 0px;
+        margin-top: 60px;
+        text-align: center;
+    }
+    .section-title h2 {
+        font-size: 60px;
+    }
+    .section-title p{
+        font-size: 18px;
+    }
+    .look-at-section .owl-nav .owl-prev, .look-at-section .owl-nav .owl-next, .people-say-section .owl-nav .owl-prev, .people-say-section .owl-nav .owl-next{
+        width: 90px;
+        height: 60px
+    }
+    .trainer-intro h4{
+        font-size: 18px;
+    }
+    .trainer-intro{
+        padding: 20px 10px;
+    }
+    .review-holder{
+        flex-direction: column;
+    }
+    .reniew-content{
+        text-align: center;
+    }
+    .reniew-content p{
+        font-size: 20px;
+    }
+    .people-say-section .owl-nav{
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+    }
+    .reniew-content .stars{
+        margin: 10px auto;
+    }
+    .news-letter-title{
+        text-align: center;
+    }
+    .footer-logo{
+        text-align: center;
+    }
+    .footer-list{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .copyright-section{
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width:575px){
+
+    .navbar-brand{
+        width: 130px;
+    }
+    .banner-tag p{
+        font-size: 16px;
+    }
+    .banner-content h1 {
+        font-size: 50px;
+    }
+    .banner-content h5 {
+        font-size: 33px;
+        line-height: 38px;
+    }
+    .banner-scetion-wrapper .owl-prev{
+        width: 30px;
+        height: 30px;
+        background-position: center !important;
+    }
 }
