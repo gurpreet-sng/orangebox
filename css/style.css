@@ -541,6 +541,20 @@ body{
 .space-top-bottom100{
     padding: 100px 0px;
 }
+.services-page-section .trainer-intro{
+    background-color: #1E232A;
+    margin-top: 0px;
+}
+.services-page-section .trainer-intro h4{
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.trainer-intro p{
+    margin-bottom: 0px;
+}
+.services-page-section .trainer-bio-box{
+    margin-bottom: 40px;
+}
 @media only screen and (max-width:1199px){
 
     .navbar-expand-md .navbar-nav .nav-link{
