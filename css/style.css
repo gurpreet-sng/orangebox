@@ -209,6 +209,9 @@ body{
     height: 40px;
     color: #ffffff;
     margin-right: 20px;
+    line-height: 1em;
+    padding: 0px 10px;
+    margin-bottom: 10px;
 }
 .section-title h2{
     font-size: 96px;
@@ -645,15 +648,80 @@ body{
         font-size: 16px;
     }
     .banner-content h1 {
-        font-size: 50px;
+        font-size: 45px;
+        line-height: 1em;
     }
     .banner-content h5 {
         font-size: 33px;
         line-height: 38px;
     }
-    .banner-scetion-wrapper .owl-prev{
+    .banner-scetion-wrapper .owl-prev,.banner-scetion-wrapper .owl-next{
         width: 30px;
         height: 30px;
         background-position: center !important;
+    }
+    .banner-content h4 {
+        font-size: 30px;
+        line-height: 1em;
+    }
+    .banner-one {
+        padding: 250px 0px 100px;
+    }
+    .banner-tag{
+        padding: 10px 40px;
+        top: 25px;
+    }
+    .about-content-wrapper{
+        padding: 40px 20px;
+    }
+    .about-content h3{
+        margin-bottom: 20px;
+    }
+    .about-content p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .section-title h2 {
+        font-size: 40px;
+    }
+    .section-title p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .service-box-inner{
+        padding: 20px;
+    }
+    .orange-button.btnstyle.margin-top-60{
+        margin-top: 20px;
+    }
+    .best-training-section .about-content h3 {
+        font-size: 16px;
+    }
+    .best-training-section .about-content h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .spaceleft-right.best-training-section .space-top-bottom{
+        padding-bottom: 20px;
+    }
+    .look-at-section .owl-nav, .people-say-section .owl-nav {
+        position: static;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .reniew-content p {
+        font-size: 18px;
+    }
+    .news-letter-title h4 {
+        font-size: 24px;
+    }
+    .newsletter-form{
+        flex-direction: column;
+    }
+    .newsletter-form .btn.btn-primary{
+        margin-top: 20px;
+    }
+    .copyright-section p{
+        margin-top: 20px;
     }
 }

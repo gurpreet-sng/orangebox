@@ -128,9 +128,6 @@
                                   <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
                                   </li>
-                                  <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button>
-                                  </li>
                                 </ul>
                             <div class="tab-content" id="myTabContent">
                               <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">One Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
@@ -492,7 +489,18 @@
                     nav:true,
                     autoplay:true,
                     autoplayTimeout:2000,
-                    autoplayHoverPause:true
+                    autoplayHoverPause:true,
+                    responsive:{
+                            0:{
+                                items:1
+                            },
+                            600:{
+                                items:2
+                            },
+                            1000:{
+                                items:3
+                            }
+                    }
                 });
 
                 $('.owl-three').owlCarousel({
@@ -503,6 +511,7 @@
                     autoplay:true,
                     autoplayTimeout:3000,
                     autoplayHoverPause:true
+                    
                 });
                 
                 $('.play').on('click',function(){
